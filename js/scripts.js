@@ -1,54 +1,23 @@
-function pageScroll() {
-    window.scrollTo(0,1500);
-    //setTimeout(pageScroll,1);
+function scroll_to_what_is() {
+    window.scrollTo(0,700);
 }
 
-
-////////////////////////////
-var slideIndex = 1;
-
-showDivs(slideIndex);
-
-function plusDivs(n) {
-	showDivs(slideIndex += n);
+function scroll_to_components(){
+	window.scrollTo(0,1550);
 }
 
-function currentDiv(n) {
-	showDivs(slideIndex = n);
+function scroll_to_apis(){
+	window.scrollTo(0,2750);
 }
 
-function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    if (n > x.length) {slideIndex = 1} 
-    if (n < 1) {slideIndex = x.length} ;
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none"; 
-    }
-    x[slideIndex-1].style.display = "block"; 
+function scroll_to_startapp(){
+	window.scrollTo(0,3825);
 }
 
-/////////////////////////////
-
-var slideIndex2 = 1;
-
-showDivs2(slideIndex2);
-
-function plusDivs2(n) {
-	showDivs2(slideIndex2 += n);
+function scroll_to_cli(){
+	window.scrollTo(0,4600);
 }
 
-function currentDiv2(n) {
-	showDivs2(slideIndex2 = n);
-}
-
-function showDivs2(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides2");
-    if (n > x.length) {slideIndex2 = 1} 
-    if (n < 1) {slideIndex2 = x.length} ;
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none"; 
-    }
-    x[slideIndex2-1].style.display = "block"; 
+function scroll_to_creator(){
+	window.scrollTo(0,5450);
 }
