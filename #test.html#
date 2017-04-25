@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Checkboxes
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+    <ion-list-header>
+      Characters
+    </ion-list-header>
+
+    <ion-item>
+      <ion-label>Jon Snow</ion-label>
+      <ion-checkbox checked="true"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Daenerys Targaryen</ion-label>
+      <ion-checkbox color="dark" checked="true"></ion-checkbox>
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>
+
+
