@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
+  <head>
+    
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
@@ -31,19 +32,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="#">Team Ironic Mobile Development</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#ionic">What is Ionic Mobile Development?</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a href="#components">Components</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#api">APIs</a>
                     </li>
                 </ul>
             </div>
@@ -56,8 +57,7 @@
     <header class="header-image">
         <div class="headline">
             <div class="container">
-                <h1>One Page Wonder</h1>
-                <h2>Will Knock Your Socks Off</h2>
+                <h1>Ionic Mobile Development</h1>
             </div>
         </div>
     </header>
@@ -69,33 +69,62 @@
 
         <!-- First Featurette -->
         <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">This First Heading
-                <span class="text-muted">Will Catch Your Eye</span>
+            <h2 class="featurette-heading">What is
+                <span class="text-muted">Ionic Mobile Development?</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Framework for apps with performance and modern web standards in mind <br>
+Basically AngularJS and CSS framework for phone apps (or web apps) <br>
+<a href="https://github.com/diegonetto/generator-ionic"> Free Open Source </a> <br>
+Works across multiple platforms w/ one code base</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Second Featurette -->
         <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">The Second Heading
-                <span class="text-muted">Is Pretty Cool Too.</span>
+            <h2 class="featurette-heading">Components
+                <span class="text-muted">are what make Ionic.</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Carries on from Angular (underlying framework that goes hand-in-hand with Ionic) <br>
+Reusable UI elements that are essentially the building blocks that allow quick models, interfaces, cards, pop ups, and more </br>
+<a href="https://ionicframework.com/docs/v2/components/"> Documentation </a></p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Third Featurette -->
         <div class="featurette" id="contact">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">The Third Heading
-                <span class="text-muted">Will Seal the Deal.</span>
+            <h2 class="featurette-heading">It wouldn't be Ionic without
+                <span class="text-muted">APIs</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead"><i>Component APIs:</i> <br>
+	      APIs provided by Ionic 2 that are implemented in the UI and have their own properties and events <br>
+	      <b>Ex: </b>Checkbox, Toggle, Item <br>
+	     <i>Service APIs: </i><br>
+	     APIs that are used in conjunction with other classes <br>
+	     <b> Ex:</b> MenuController (deals w/ sidebars on  apps),
+	Config (allows you to configure tab placement, icons etc),
+	Platform (provides information on how app is viewed)
+
+	    </p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!--4th-->
+        <div class="featurette" id="contact">
+            <h2 class="featurette-heading">Starting an 
+                <span class="text-muted">App</span>
+            </h2>
+          To make a very simple Ionic app, first make an index.html
+An example looks like 
+ <br>
+          <img src = "code.png"><br>
+          Next, initialize an angular JS file with <br>
+          angular.module('name',['ionic'])<br>
+          Add &lt;script src="js/app.js"&gt;&lt;/script&gt; <br>
+          to index.html <br>
+          And add <body ng-app="name"> to the body
         </div>
 
         <hr class="featurette-divider">
@@ -104,7 +133,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>By Yvonne Chan, Daniel Chiu, & Lindsey Ma</p>
                 </div>
             </div>
         </footer>
